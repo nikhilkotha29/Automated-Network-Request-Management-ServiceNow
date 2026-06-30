@@ -105,3 +105,16 @@ The workflow is fully automated using **ServiceNow Flow Designer**. Once a user 
 6. Based on the approval decision, the request status is updated.
 7. An email notification is sent to the requester.
 8. The completed request is stored for reporting and auditing purposes.
+---
+
+# 🚀 Future Enhancements
+
+- Role-based access control
+- SLA Monitoring
+- Interactive Dashboard
+- Asset Management Integration
+- CMDB Integration
+- Mobile-friendly Service Portal
+- Multi-level Approval Workflow
+- Integration with Network Monitoring Tools
+- Reporting & Analytics Dashboard
