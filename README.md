@@ -85,3 +85,23 @@ The **Automated Network Request Management** solution follows a request-driven a
 7. After approval or rejection, the request status is updated.
 8. Email notifications are sent automatically to the requester.
 9. All request data is stored for tracking, reporting, and auditing.
+---
+
+# 🔄 Workflow
+
+The workflow is fully automated using **ServiceNow Flow Designer**. Once a user submits a network request through the Service Catalog, the system automatically validates the request, creates a record, routes it for approval, updates the request status, and notifies the requester.
+
+## Workflow Diagram
+
+![Workflow](diagrams/workflow.png)
+
+## Workflow Steps
+
+1. User submits a Network Request through the Service Catalog.
+2. ServiceNow captures all catalog variables.
+3. Flow Designer is triggered automatically.
+4. A record is created in the custom Network Database table.
+5. The request is routed for manager approval.
+6. Based on the approval decision, the request status is updated.
+7. An email notification is sent to the requester.
+8. The completed request is stored for reporting and auditing purposes.
