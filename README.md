@@ -52,3 +52,36 @@ Organizations often manage network requests manually, resulting in delays, incon
 | UI | Catalog Variables & UI Policies |
 
 ---
+
+# 🏗️ System Architecture
+
+The **Automated Network Request Management** solution follows a request-driven architecture built using ServiceNow's Service Catalog, Flow Designer, UI Policies, and a custom database table. The architecture automates the complete lifecycle of a network request—from user submission to approval, record management, and notification—without requiring manual intervention.
+
+## Architecture Diagram
+
+![System Architecture](diagrams/architecture.png)
+
+## Component Description
+
+| Component | Description |
+|-----------|-------------|
+| **Employee/User** | Submits a network request using the Service Catalog. |
+| **Service Catalog** | Provides the Network Request form for users to submit requests. |
+| **Catalog Variables** | Collect requester information, device details, and request-specific inputs. |
+| **Catalog UI Policies** | Dynamically show or hide fields based on user selections to improve usability. |
+| **Flow Designer** | Automates request processing, approvals, notifications, and record updates. |
+| **Network Database Table** | Stores all submitted network requests and tracks their status. |
+| **Approval Engine** | Routes requests to the appropriate approver for authorization. |
+| **Email Notification** | Sends automatic emails to requesters with status updates and request details. |
+
+## How the Architecture Works
+
+1. Users submit a network request through the Service Catalog.
+2. Catalog Variables capture the required information.
+3. UI Policies dynamically adjust the form based on user input.
+4. Flow Designer is triggered automatically after submission.
+5. A new record is created in the custom Network Database table.
+6. The request is routed for approval.
+7. After approval or rejection, the request status is updated.
+8. Email notifications are sent automatically to the requester.
+9. All request data is stored for tracking, reporting, and auditing.
