@@ -122,7 +122,7 @@ The workflow is fully automated using **ServiceNow Flow Designer**. Once a user 
 
 For detailed project documentation:
 
-- 📄 [Detailed Project Report](docs/Automated_Network_Request_Management_Detailed_Project_Report.pdf)
+- 📄 [Detailed Project Report](docs/Automated_Network_Request_Management_ServiceNow_Report.pdf)
 ---
 
 #  Author
