@@ -118,3 +118,20 @@ The workflow is fully automated using **ServiceNow Flow Designer**. Once a user 
 - Multi-level Approval Workflow
 - Integration with Network Monitoring Tools
 - Reporting & Analytics Dashboard
+## 📚 Documentation
+
+For detailed project documentation:
+
+- 📄 [Detailed Project Report](docs/Automated_Network_Request_Management_Detailed_Project_Report.pdf)
+---
+
+#  Author
+
+**Nikhil Kotha**
+
+- ServiceNow Certified System Administrator (CSA)
+- ServiceNow Certified Application Developer (CAD)
+- Java Full Stack Developer
+- Passionate about ServiceNow, Spring Boot, and AI-driven applications.
+
+⭐ If you found this project helpful, consider giving it a star!
